@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AAF91FA198CDE8E00CFE68E /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAF91F9198CDE8E00CFE68E /* AppleScriptObjC.framework */; };
+		2AAF91FF198CDE8E00CFE68E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF91FE198CDE8E00CFE68E /* main.m */; };
+		2AAF9201198CDE8E00CFE68E /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF9200198CDE8E00CFE68E /* AppDelegate.applescript */; };
+		2AAF9203198CDE8E00CFE68E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF9202198CDE8E00CFE68E /* Images.xcassets */; };
+		2AAF9206198CDE8E00CFE68E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AAF9204198CDE8E00CFE68E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AAF91F6198CDE8E00CFE68E /* iTunesTagEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesTagEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAF91F9198CDE8E00CFE68E /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		2AAF91FD198CDE8E00CFE68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AAF91FE198CDE8E00CFE68E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AAF9200198CDE8E00CFE68E /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		2AAF9202198CDE8E00CFE68E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2AAF9205198CDE8E00CFE68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AAF91F3198CDE8E00CFE68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAF91FA198CDE8E00CFE68E /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AAF91ED198CDE8E00CFE68E = {
+			isa = PBXGroup;
+			children = (
+				2AAF91FB198CDE8E00CFE68E /* iTunesTagEditor */,
+				2AAF91F8198CDE8E00CFE68E /* Frameworks */,
+				2AAF91F7198CDE8E00CFE68E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AAF91F7198CDE8E00CFE68E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AAF91F6198CDE8E00CFE68E /* iTunesTagEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AAF91F8198CDE8E00CFE68E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AAF91F9198CDE8E00CFE68E /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AAF91FB198CDE8E00CFE68E /* iTunesTagEditor */ = {
+			isa = PBXGroup;
+			children = (
+				2AAF9200198CDE8E00CFE68E /* AppDelegate.applescript */,
+				2AAF9202198CDE8E00CFE68E /* Images.xcassets */,
+				2AAF9204198CDE8E00CFE68E /* MainMenu.xib */,
+				2AAF91FC198CDE8E00CFE68E /* Supporting Files */,
+			);
+			path = iTunesTagEditor;
+			sourceTree = "<group>";
+		};
+		2AAF91FC198CDE8E00CFE68E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AAF91FD198CDE8E00CFE68E /* Info.plist */,
+				2AAF91FE198CDE8E00CFE68E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AAF91F5198CDE8E00CFE68E /* iTunesTagEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAF9209198CDE8E00CFE68E /* Build configuration list for PBXNativeTarget "iTunesTagEditor" */;
+			buildPhases = (
+				2AAF91F2198CDE8E00CFE68E /* Sources */,
+				2AAF91F3198CDE8E00CFE68E /* Frameworks */,
+				2AAF91F4198CDE8E00CFE68E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesTagEditor;
+			productName = iTunesTagEditor;
+			productReference = 2AAF91F6198CDE8E00CFE68E /* iTunesTagEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AAF91EE198CDE8E00CFE68E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ay65535;
+				TargetAttributes = {
+					2AAF91F5198CDE8E00CFE68E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 2AAF91F1198CDE8E00CFE68E /* Build configuration list for PBXProject "iTunesTagEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AAF91ED198CDE8E00CFE68E;
+			productRefGroup = 2AAF91F7198CDE8E00CFE68E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AAF91F5198CDE8E00CFE68E /* iTunesTagEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AAF91F4198CDE8E00CFE68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAF9203198CDE8E00CFE68E /* Images.xcassets in Resources */,
+				2AAF9206198CDE8E00CFE68E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AAF91F2198CDE8E00CFE68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAF9201198CDE8E00CFE68E /* AppDelegate.applescript in Sources */,
+				2AAF91FF198CDE8E00CFE68E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AAF9204198CDE8E00CFE68E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAF9205198CDE8E00CFE68E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AAF9207198CDE8E00CFE68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2AAF9208198CDE8E00CFE68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2AAF920A198CDE8E00CFE68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iTunesTagEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AAF920B198CDE8E00CFE68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iTunesTagEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AAF91F1198CDE8E00CFE68E /* Build configuration list for PBXProject "iTunesTagEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAF9207198CDE8E00CFE68E /* Debug */,
+				2AAF9208198CDE8E00CFE68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAF9209198CDE8E00CFE68E /* Build configuration list for PBXNativeTarget "iTunesTagEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAF920A198CDE8E00CFE68E /* Debug */,
+				2AAF920B198CDE8E00CFE68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AAF91EE198CDE8E00CFE68E /* Project object */;
+}
